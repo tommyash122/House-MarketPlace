@@ -89,6 +89,7 @@ function Signin(props) {
                         Forgot Password
                     </Link>
 
+
                     <div className="signInBar">
                         <p className="signInText">
                             Sign In
@@ -96,14 +97,17 @@ function Signin(props) {
                         <button className="signInButton">
                             <ArrowRightIcon fill='#ffffff' width='34px' height='34px'/>
                         </button>
+
                     </div>
+
+                    <Link to='/Signup' className='registerLink'>
+                        Sign Up Instead
+                    </Link>
+
                 </form>
 
                 <OAuth/>
 
-                <Link to='/Signup' className='registerLink'>
-                    Sign Up Instead
-                </Link>
             </div>
         </>
     );

@@ -116,13 +116,15 @@ function Signup(props) {
                             <ArrowRightIcon fill='#ffffff' width='34px' height='34px'/>
                         </button>
                     </div>
+
+                    <Link to='/Signin' className='registerLink'>
+                        Sign In Instead
+                    </Link>
                 </form>
 
                 <OAuth/>
 
-                <Link to='/Signin' className='registerLink'>
-                    Sign In Instead
-                </Link>
+
             </div>
         </>
     );

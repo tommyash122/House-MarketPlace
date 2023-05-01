@@ -41,6 +41,7 @@ function OAuth() {
             <button className="socialIconDiv" onClick={onGoogleClick}>
                 <img className='socialIconImg' src={googleIcon} alt="google" />
             </button>
+
         </div>
     );
 }
